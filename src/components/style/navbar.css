@@ -1,0 +1,35 @@
+.navbar-container{
+    background-color: rgb(181, 91, 241);
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+    width: 100%;
+    
+    color: antiquewhite;
+}
+
+.navbar-items ul{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    list-style: none; 
+    gap: 20px; 
+    margin: 0;
+    padding: 10px 10px 10px 10px;
+}
+
+.navbar-items button{
+    background-color: transparent;
+    color: aliceblue;
+    
+}
+
+.navbar-items button:hover{
+    background-color: aliceblue;
+    color: rgb(181, 91, 241);
+    outline: none;
+}
+
+.navbar-items button:focus{
+    outline: none;
+}

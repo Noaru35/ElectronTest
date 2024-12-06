@@ -1,0 +1,29 @@
+/* Centraliza o container no topo da página */
+.dashboard-container {
+    display: flex; /* Define um layout flexível */
+  flex-direction: column; /* Organiza os filhos verticalmente */
+  align-items: center; /* Centraliza os elementos horizontalmente */
+  justify-content: flex-start; /* Garante que os elementos fiquem no topo */
+  min-height: 100vh; /* Faz o container ocupar toda a altura da tela */
+  padding-top: 20px; /* Espaço entre o topo e os elementos */
+  text-align: center; /* Alinha o texto ao centro */
+  }
+  
+  /* Estilo do título */
+  .dashboard-title {
+    font-size: 2rem;
+    margin-bottom: 10px; /* Espaço entre o título e o parágrafo */
+  }
+  
+  /* Estilo do parágrafo */
+  .dashboard-p1 {
+    font-size: 1.2rem;
+    margin-bottom: 20px; /* Espaço entre o parágrafo e a imagem */
+  }
+  
+  /* Estilo da imagem */
+  .img-test img {
+    width: 200px; /* Redimensiona a imagem */
+    height: auto; /* Mantém a proporção */
+  }
+  
